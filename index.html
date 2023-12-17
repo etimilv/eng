@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Language Learning: Swedish to English</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="wordInputContainer">
+        <h2>Enter Word Pairs</h2>
+        <div id="wordPairs">
+            <input type="text" placeholder="Swedish word" class="swedish-input">
+            <input type="text" placeholder="English translation" class="english-input">
+        </div>
+        <button id="addWordPair">Add Another Word Pair</button>
+        <button id="startTest">Start Test</button>
+    </div>
+
+    <div id="mainContainer" style="display:none;">
+        <h1>Learn English from Swedish</h1>
+        <div id="wordDisplay"></div>
+        <input type="text" id="userInput" placeholder="Enter English translation">
+        <button id="submitAnswer">Submit</button>
+        <div id="feedback"></div>
+        <div id="hint"></div>
+        <div id="summary"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
